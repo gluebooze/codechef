@@ -6,7 +6,7 @@ class chefstr1{
             Scanner sc = new Scanner(System.in);
             int t = sc.nextInt();
             while(t-->0){
-                int sum =0;
+                long sum =0;
                 int n = sc.nextInt();
                 int a[] = new int[n];
                 a[0] = sc.nextInt();
