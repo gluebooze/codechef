@@ -14,12 +14,12 @@ class crdgame{
                     do{
                         ch1 += a[i][0]%10;
                         a[i][0] = a[i][0]/10;
-                    }while(a[i][0]/10!=0);
+                    }while(a[i][0]!=0);
 
                     do{
                         mo1 += a[i][1]%10;
                         a[i][1] = a[i][1]/10;
-                    }while(a[i][1]/10!=0);
+                    }while(a[i][1]!=0);
 
                     if(ch1 > mo1)
                         ch += 1;
