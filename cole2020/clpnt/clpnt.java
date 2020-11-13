@@ -36,7 +36,7 @@ class clpnt{
         else if(sum < 0)
             return (calcu(a,(k-1),x,y));
         else
-            return sum;
+            return k+1;
 
 
     }
